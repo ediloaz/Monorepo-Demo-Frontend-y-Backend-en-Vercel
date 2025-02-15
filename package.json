@@ -1,9 +1,0 @@
-{
-    "name": "monorepo-demo-frontend-y-backend-en-vercel",
-    "private": true,
-    "scripts": {
-      "build": "cd frontend && npm install && npm run build",
-      "install": "npm install --prefix frontend && npm install --prefix backend"
-    }
-  }
-  
