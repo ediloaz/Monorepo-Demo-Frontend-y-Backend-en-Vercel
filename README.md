@@ -2,8 +2,9 @@
 
 Este repositorio contiene un proyecto de prueba que integra un **frontend** en React (configurado con Vite) y un **backend** en Express, gestionados en un monorepo. El objetivo es demostrar la funcionalidad de despliegue y la comunicación entre ambos a través de Vercel.
 
-Vercel Frontend: https://monorepo-demo-frontend-y-backend-en-vercel-frontend.vercel.app/
-Vercel Backend (main endpoint): https://monorepo-demo-frontend-y-backend-en-vercel-backend.vercel.app/api/info
+## Direcciones en Vercel
+- **Frontend**: https://monorepo-demo-frontend-y-backend-en-vercel-frontend.vercel.app/
+- **Backend (endpoint principal)**: https://monorepo-demo-frontend-y-backend-en-vercel-backend.vercel.app/api/info
 
 ## 📋 Tabla de Contenidos
 
