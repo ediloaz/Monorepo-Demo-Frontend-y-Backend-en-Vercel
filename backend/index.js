@@ -10,6 +10,10 @@ const PORT = process.env.PORT || 3000;
 app.use(helmet());
 app.use(cors());
 
+app.get('/', (req, res) => {
+  res.send('Bienvenido al API del backend.');
+});
+
 // Endpoint GET que devuelve timestamp, IP y región
 app.get('/api/info', (req, res) => {
   // Obtener la IP (considera que en entornos de producción puede venir en x-forwarded-for)
