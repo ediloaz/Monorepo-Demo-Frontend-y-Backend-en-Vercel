@@ -13,7 +13,14 @@ app.get('/', (req, res) => {
   res.send('Bienvenido al API del backend.');
 });
 
-// Endpoint GET que devuelve timestamp, IP y región
+app.get('/api/test', (req, res) => {
+  res.json({
+    timestamp: Date.now(),
+    texto: "Hola Mundo",
+  });
+});
+
+
 app.get('/api/info', (req, res) => {
   const ip = req.headers['x-forwarded-for'] || req.socket.remoteAddress;
   const geo = geoip.lookup(ip) || {};
@@ -26,5 +33,4 @@ app.get('/api/info', (req, res) => {
   });
 });
 
-// Remueve el app.listen() y exporta la app para que Vercel la use
 export default app;
