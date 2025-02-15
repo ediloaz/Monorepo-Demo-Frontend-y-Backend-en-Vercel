@@ -28,6 +28,7 @@ mi-proyecto
 ├── frontend        # Aplicación React (Vite)
 ├── backend         # API Express
 └── .gitignore
+```
 
 ## 💻 Instalación
 
@@ -43,6 +44,7 @@ mi-proyecto
    ```bash
    git clone https://github.com/tuusuario/mi-proyecto.git
    cd mi-proyecto
+   ```
 
 2. **Instala las dependencias del Frontend:**
 
@@ -85,6 +87,7 @@ Crea un archivo `.env` en la carpeta `frontend` y define la URL del backend:
 
 ```env
 VITE_BACKEND_URL=http://localhost:3000/api
+```
 Nota: Las variables de entorno deben tener el prefijo VITE_ para ser accesibles en el código de Vite
 
 ### Backend
@@ -122,6 +125,7 @@ Para desplegar este proyecto en Vercel, sigue estos pasos:
        { "src": "/(.*)", "dest": "frontend/dist/$1" }
      ]
    }
+   ```
 
 4. **Realiza un commit y push:**
 Una vez configurado, sube tus cambios a GitHub para que Vercel inicie el proceso de despliegue automáticamente.
